@@ -54,7 +54,7 @@ int main()
     }
     else if(direction==0)
     {
-        for(i=l_count-1;i>=l_count;i--)
+        for(i=l_count-1;i>=0;i--)
         {
             seekdistance+=abs(head-a[i]);
             head=a[i];
